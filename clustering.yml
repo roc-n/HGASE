@@ -1,0 +1,71 @@
+DBLP:
+  patience: 25
+  target_node: author
+  num_class: 4
+  dim: 64
+  lr: 0.01
+  weight_decay: 0.001
+  
+  ep_f: 0.4
+  ep_s: 0.1
+  co: [0.3,0.3,0.3]
+  nei_t: 2
+  ratio: [0.07,0.3]
+  neighbor_threshold: 100
+  mask_ratio: 0.6
+  threshold: 0.5
+
+
+ACM:
+  patience: 25
+  target_node: paper
+  num_class: 3
+  dim: 128
+  lr: 0.01
+  weight_decay: 0.001
+  
+  ep_f: 0.41
+  ep_s: 0.7
+  co: [0.4,0.6]
+  nei_t: 10
+  ratio: [0.07,0.32]
+  neighbor_threshold: 100
+  mask_ratio: 0.6
+  threshold: 0.5
+  # k = 100
+
+IMDB_:
+  patience: 25
+  target_node: m
+  num_class: 3
+  dim: 64
+  lr: 0.01
+  weight_decay: 0.001
+  
+  ep_f: 0.4
+  ep_s: 1
+  co: [0.3,0.3,0.3]
+  nei_t: 10
+  ratio: [0.1,0.1,0.1]
+  neighbor_threshold: 100
+  mask_ratio: 0.6
+  threshold: 0.5
+
+# IMDB_:
+#   patience: 25
+#   target_node: m
+#   num_class: 3
+#   dim: 64
+#   lr: 0.01
+#   weight_decay: 0.001
+  
+
+
+#   ep_f: 0.4
+#   ep_s: 0.2
+#   co: [0.3,0.3,0.3]
+#   nei_t: 0
+#   ratio: [0.1,0.1,0.1]
+#   neighbor_threshold: 100
+#   mask_ratio: 0.6
+#   threshold: 0.6
