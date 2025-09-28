@@ -1,6 +1,6 @@
-# HGSAE
+# HGASE
 
-The code repo for paper HGSAE
+The code repo for paper HGASE
 ## Run code
 ```bash
    python v0.py
